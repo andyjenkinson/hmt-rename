@@ -28,6 +28,8 @@ For example:
 - The hmt tool by af123 (I'm running on my Linux server, thus http://hpkg.tv/misc/hmt-linux)
 - The WebService::TVDB Perl module
 
+Note: The Perl module requires an API key from TVDB, this must be installed in your home directory (~/.tvdb). Note also that if you are trying to install from CPAN, there is a bug which means it will not build properly (the package is missing the tools/generate-languages.pl script). I recommend you download and install it from github (https://github.com/gitpan/WebService-TVDB).
+
 ## Limitations
 
 * Assumes that files are TV series episodes.
